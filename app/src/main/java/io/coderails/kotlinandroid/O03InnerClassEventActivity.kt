@@ -6,10 +6,10 @@ import android.util.Log
 import android.view.View
 import android.widget.Toast
 
-class Main2Activity : AppCompatActivity() {
+class O03InnerClassEventActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_o03_inner_class_event)
         val bh = ButtonHandler()
         findViewById<View>(R.id.button1).setOnClickListener(bh)
         findViewById<View>(R.id.button2).setOnClickListener(bh)
