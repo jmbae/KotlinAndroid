@@ -5,15 +5,15 @@ import android.app.Activity
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_o005_receive_data.*
+import kotlinx.android.synthetic.main.activity_o05_receive_data.*
 import java.util.logging.Logger
 
-class O005ReceiveDataActivity : AppCompatActivity() {
-    val Log = Logger.getLogger(O005ReceiveDataActivity::class.java.name)
+class O05ReceiveDataActivity : AppCompatActivity() {
+    val Log = Logger.getLogger(O05ReceiveDataActivity::class.java.name)
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_o005_receive_data)
+        setContentView(R.layout.activity_o05_receive_data)
 
         val bundle = intent.getBundleExtra("my_data")
         val height = bundle.getFloat("height")/100

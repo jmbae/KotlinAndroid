@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".O005ReceiveDataActivity">
+    tools:context=".O05ReceiveDataActivity">
 
     <TextView
         android:id="@+id/txt_intentdata"

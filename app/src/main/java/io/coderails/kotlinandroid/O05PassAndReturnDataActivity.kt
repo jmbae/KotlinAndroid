@@ -18,7 +18,7 @@ class O05PassAndReturnDataActivity : AppCompatActivity() {
 
         btn_send_data.setOnClickListener {
 
-            val intent = Intent(this@O05PassAndReturnDataActivity, O005ReceiveDataActivity::class.java)
+            val intent = Intent(this@O05PassAndReturnDataActivity, O05ReceiveDataActivity::class.java)
             val bundle = Bundle()
 
             bundle.putFloat("weight", input_weight.text.toString().toFloat())

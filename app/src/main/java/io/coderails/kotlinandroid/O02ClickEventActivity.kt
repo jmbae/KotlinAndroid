@@ -4,16 +4,23 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.view.View
+import android.widget.Button
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_o02_click_event.*
 
 class O02ClickEventActivity : AppCompatActivity() {
+    lateinit var mButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_o02_click_event)
 //   The following code is a verbose way of setting up
 //   an anonymous inner object
+
+        mButton = findViewById(R.id.button)
+
+        println(button === mButton) // true
+        println(button == mButton) // true
 
         button.setOnClickListener(object: View.OnClickListener {
             override fun onClick(v: View?) {
