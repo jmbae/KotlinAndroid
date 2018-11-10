@@ -19,6 +19,7 @@ class O02ClickEventActivity : AppCompatActivity() {
             override fun onClick(v: View?) {
                 Toast.makeText(this@O02ClickEventActivity, "Hello World", Toast.LENGTH_LONG).show()
                 println("Hello click")
+//                finish() 4강 나중용
             }
         })
 
@@ -27,6 +28,7 @@ class O02ClickEventActivity : AppCompatActivity() {
 //        button.setOnClickListener {
 //            Toast.makeText(this, "Hello World", Toast.LENGTH_LONG).show()
 //            println("Hello")
+//        finish() 이건 나중에 4강에서 돌아가는 거
 //        }
 
 
