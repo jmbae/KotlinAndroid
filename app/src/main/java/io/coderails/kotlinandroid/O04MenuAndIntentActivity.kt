@@ -16,7 +16,7 @@ import java.util.logging.Logger
 //
 class O04MenuAndIntentActivity : AppCompatActivity() {
 
-    val Log = Logger.getLogger(O04MenuAndIntentActivity::class.java.name)
+    private val Log = Logger.getLogger(O04MenuAndIntentActivity::class.java.name)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
