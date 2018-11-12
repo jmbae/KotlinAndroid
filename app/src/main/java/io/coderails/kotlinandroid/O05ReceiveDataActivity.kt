@@ -16,8 +16,8 @@ class O05ReceiveDataActivity : AppCompatActivity() {
         setContentView(R.layout.activity_o05_receive_data)
 
         val bundle = intent.getBundleExtra("my_data")
-        val height = bundle.getFloat("height")/100
-        val weight = bundle.getFloat("weight")
+        val height = bundle.getFloat("height", 0f)/100f
+        val weight = bundle.getFloat("weight", 0f)
 
         txt_intentdata.text = "키: ${height}m | 몸무게: ${weight}kg"
 

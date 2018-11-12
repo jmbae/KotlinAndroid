@@ -12,16 +12,16 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".O01HelloActivity" />
-        <activity android:name=".O02ClickEventActivity" >
+        <activity android:name=".O02ClickEventActivity" />
+        <activity android:name=".O03InnerClassEventActivity" />
+        <activity android:name=".O04MenuAndIntentActivity" />
+        <activity android:name=".O05PassAndReturnDataActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".O03InnerClassEventActivity" />
-        <activity android:name=".O04MenuAndIntentActivity" />
-        <activity android:name=".O05PassAndReturnDataActivity" />
         <activity android:name=".O05ReceiveDataActivity" />
     </application>
 
