@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".O06BookActivity"
+    android:baselineAligned="false">
+
+    <fragment
+        android:id="@+id/fragmentbooktitle"
+        android:name="io.coderails.kotlinandroid.O06.BookTitle"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/fragmentbookdescription"
+        android:name="io.coderails.kotlinandroid.O06.BookDescription"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>
