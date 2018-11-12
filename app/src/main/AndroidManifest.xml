@@ -17,7 +17,8 @@
         <activity android:name=".O04MenuAndIntentActivity" />
         <activity android:name=".O05PassAndReturnDataActivity" />
         <activity android:name=".O05ReceiveDataActivity" />
-        <activity android:name=".O06BookActivity">
+        <activity android:name=".O06BookActivity" />
+        <activity android:name=".O07AsyncActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
