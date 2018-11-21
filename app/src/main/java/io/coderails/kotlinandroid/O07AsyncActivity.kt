@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_o07_async.*
 import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.util.logging.Logger
 
@@ -43,7 +44,7 @@ class O07AsyncActivity : AppCompatActivity(), View.OnClickListener {
             var i = 0
             while (i++ < 15) {
                 Thread.sleep(2000)
-//                delay(2000)
+                delay(2000)
                 runOnUiThread {
                     textView.text = "Value of i = $i"
                 }

@@ -18,13 +18,16 @@
         <activity android:name=".O05PassAndReturnDataActivity" />
         <activity android:name=".O05ReceiveDataActivity" />
         <activity android:name=".O06BookActivity" />
-        <activity android:name=".O07AsyncActivity">
+        <activity android:name=".O07AsyncActivity" />
+        <activity android:name=".O08FileActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".O08SharedPreferenceActivity" />
+        <activity android:name=".O08SecondActivity"></activity>
     </application>
 
 </manifest>
